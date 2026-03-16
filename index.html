@@ -1,12 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skincare-hub</title>
+    <title>Glowy-Skincare</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="/public/output.css">
-</head>
+    <!-- Basic Icons -->
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
+    <!-- Filled Icons -->
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/filled/boxicons-filled.min.css" rel="stylesheet">
+    <!-- Brand Icons -->
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/brands/boxicons-brands.min.css" rel="stylesheet">
+
+
 <body>
-    <h1 class="bg-blue-600">hello</h1>
+
+    <!-- vitex start-->
+
+    <!-- Hero Section -->
+    <div class="bg-[url('/images/woman.jpg')] bg-cover bg-center min-h-[70vh] flex items-center justify-center text-center w-full text-white px-4">
+        <div class="max-w-3xl mx-auto py-16 md:py-24">
+            <h1 class=" text-3xl sm:text-4xl md:text-5xl leading-snug">
+                See The Visible Difference Our Product <br class="hidden sm:block"> Make — No Filters, Just Results.
+            </h1>
+            <p class="mt-6 text-sm sm:text-base md:text-lg text-white/90">
+                From everyday skincare to beauty must-haves — discover products your skin <br class="hidden md:block"> will thank you for.
+            </p>
+            <button class="mt-8 inline-flex items-center gap-2 border-2 border-white rounded-full px-6 py-2.5 text-sm sm:text-base cursor-pointer hover:bg-white hover:text-blue-950 transition-all duration-300">
+                Shop Now <i class="fa-solid fa-circle-arrow-right"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Second Section -->
+    <div class="flex flex-col md:flex-row bg-purple-100 text-blue-950 min-h-[70vh]">
+
+        <div class="flex flex-col justify-center px-8 md:px-16 py-12 md:w-1/2">
+            <h2 class="font-Petit Formal Script text-3xl sm:text-4xl md:text-[2.5rem] leading-snug">
+                Hydrates, Restores, And <br> Enhances Your Skin's <br> Natural Glow
+            </h2>
+            
+            <p class="mt-4 text-[#05065a83] font-semibold">Key Ingredients:</p>
+            <ul class="mt-2 space-y-1 text-blue-950">
+                <li class="inline-flex items-center gap-2"><span>&rarr;</span> Hyaluronic Acid</li><br>
+                <li class="inline-flex items-center gap-2"><span>&rarr;</span> Vitamin C</li><br>
+                <li class="inline-flex items-center gap-2"><span>&rarr;</span> Botanical Extracts</li>
+            </ul>
+            <button class="mt-8 inline-flex items-center gap-2 border-2 border-[#05065a83] text-[#05065a83] rounded-full px-6 py-2.5 text-sm sm:text-base w-fit cursor-pointer hover:bg-blue-950 hover:text-white transition-all duration-300">
+                Shop Now <i class="fa-solid fa-circle-arrow-right"></i>
+            </button>
+        </div>
+
+        <div class="md:w-1/2">
+            <img src="/images/lady.jpeg" alt="Lady" class="w-full h-64 md:h-full object-cover">
+        </div>
+
+    </div>
+
+    <!-- Testimonials Section -->
+    <div class="bg-green-100 text-blue-950 py-12 px-4">
+
+        <div class="max-w-4xl mx-auto">
+            <div class="flex items-start justify-between gap-4">
+
+                <!-- PREV -->
+                <a href="#" class="inline-flex items-center gap-1 hover:text-blue-700 mt-2 shrink-0 text-sm sm:text-base">
+                    <span class="leading-none">&#8592;</span>
+                    <span>PREV</span>
+                </a>
+
+                <!-- Quote -->
+                <div class=" px-2">
+                    <p class="text-xs sm:text-sm text-[#05065a83] font-semibold uppercase tracking-widest mb-2">Testimonials</p>
+                    <h2 class="text-xl sm:text-2xl md:text-[2rem] leading-snug font-semibold">
+                        "Worth Every Penny. Packaging, Formula, <br class="hidden sm:block"> Result — Everything Is Perfect"
+                    </h2>
+                </div>
+
+                <!-- NEXT -->
+                <a href="#" class="inline-flex items-center gap-1 hover:text-blue-700 mt-2 shrink-0 text-sm sm:text-base">
+                    <span>NEXT</span>
+                    <span class="leading-none">&#8594;</span>
+                </a>
+
+            </div>
+
+            <!-- Reviewer Info -->
+            <div class="flex flex-col sm:flex-row justify-between items-center mt-10 gap-4">
+                <div class="flex items-center gap-3">
+                    <img src="/images/lady.jpeg" alt="Emma" class="w-10 h-10 rounded-full object-cover">
+                    <div>
+                        <p class="font-semibold text-sm">Emma L.</p>
+                        <p class="text-xs text-[#05065a83]">@emma_l</p>
+                    </div>
+                </div>
+                <div class="inline-flex items-center gap-1 text-blue-950 font-semibold">
+                    <span class="leading-none">&#9733;</span>
+                    <span>4.9</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- vitex end -->
+  
 </body>
+
 </html>
